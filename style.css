@@ -1,0 +1,125 @@
+*
+{
+ box-sizing: border-box; margin: 0; padding: 0;
+}
+ html {
+  box-sizing: border-box;
+    }
+  /*Encabezado*/
+body {
+  background-image: url("https://cdn1.matadornetwork.com/blogs/2/2020/04/shutterstock_409662202.jpg"), url("paper.gif");
+}
+ header {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    text-justify:center;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100% 100%;
+    background-color: transparent;
+  }
+/*!Button*/
+  button {
+    font-family: 'Paytone One', sans-serif;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #b3fffa;
+    text-shadow: 0px 0px 5px #aa132c, 0px 0px 10px #aa132c, 0px 0px 10px #aa132c, 0px 0px 20px #aa132c;
+    border-radius: 20px;
+    border-color: pink;
+    background-color: #f462fe;
+    background-image: linear-gradient (to top left,
+      rgb(255, 82, 82, 0.1));
+  }
+/*H1 H2!*/    
+ 
+* h1, h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #fdfdfe;
+  text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3,
+    0px 0px 20px #b393d3;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;   
+}
+/*grillas*/
+#grilla-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 25% 65% 10%;
+}
+
+.sin-grilla-trivia {
+  display:none;
+}
+
+.con-grilla-trivia {
+  display:grid;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.trivia{ 
+  font-family: Trebuchet MS, sans serif;
+  padding: 10px 10px;
+  color: #2049ee;
+  background-color:rgb(245, 218, 117, 0.9);;
+}
+  
+fieldset {
+  background-color:rgb(245, 218, 117, 0.92);;
+  font-family: Trebuchet MS, sans-serif;
+  font-size: 1.25rem;
+  padding: 10px 10px;
+}
+ 
+footer {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #2049ee;
+  text-align: center;
+  text-size-adjust: 5px;
+  background-color: rgba(215, 193, 211, 0.8);
+  margin-top: 160px;
+}
+
+footer {
+  grid-column: 1/4;
+  grid-row: 4/5;
+  justify-content: stretch;
+}
+
+.titulo {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.botones {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+#btnRedi {
+  justify-self: center;
+  width: 170px;
+  height: 60px;
+  font-size: large;
+}
+
+main button {
+justify-self: center;
+}
+div {
+  display: flex;
+  align-items: center;
+}
+div img {
+  width:20%;
+  height:20%;
+  margin: 1em;
+  margin-left: 4em;
+}

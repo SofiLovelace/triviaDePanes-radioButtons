@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Trivia Equipo 4.2</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;400;500;800&family=Mandali&family=Overlock:ital,wght@1,400;1,900&family=Paytone+One&family=Righteous&family=Rubik+Dirt&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body id="grilla-principal">
+  <!--Inicio de Encabezado-->
+  <header>
+    <section class="titulo">
+      <h1>Bienvenide, esta es la trivia de panes </h1>
+      <div>
+        <h2>¡¿Liste para COMENZAR?!</h2>
+    </section>
+    <section class="botones">
+      <!--Botón 1-->
+      <button id="btnRedi" type="button">Toy Rediii!!</button>
+      <!--Cierre Botón 1-->
+    </section>
+    </div>
+  </header>
+  <!--Cierre Encabezado-->
+
+  <!--Radio Button Inicio-->
+  <main class="sin-grilla-trivia">
+    <section class="trivia">
+      <fieldset class="pregunta1">
+        <legend>1.-¿Qué pan tiene un hoyo en medio y está cubierto por un glaseado?</legend>
+        <div>
+          <input type="radio" id="respuesta1" name="pregunta1" value="respuesta1">
+          <label for="respuesta1">Dona</label>
+          <img src="./Images/Dona.png" alt="Dona Chabocha">
+        </div>
+        <div>
+          <input type="radio" id="respuesta2" name="pregunta1" value="respuesta2">
+          <label for="respuesta2">Barquillo</label>
+          <img src="./Images/Cono.png" alt="Barquillo Chabocho">
+        </div>
+        <div>
+          <input type="radio" id="respuesta3" name="pregunta1" value="respuesta3">
+          <label for="respuesta3">Oreja</label>
+          <img src="./Images/Oreja.png" alt="Oreja Chabocha">
+        </div>
+      </fieldset>
+      <fieldset class="pregunta 2">
+        <legend>2.-¿Qué pan está hecho de hojaldre y tiene forma de una parte del cuerpo?</legend>
+        <div>
+          <input type="radio" id="respuesta1.2" name="pregunta2" value="respuesta1.2">
+          <label for="respuesta1.2">Concha</label>
+          <img src="./Images/Concha.png" alt="Concha Chabocha">
+        </div>
+        <div>
+          <input type="radio" id="respuesta2.2" name="pregunta2" value="respuesta2.2">
+          <label for="respuesta2.2">Oreja</label>
+          <img src="./Images/Oreja.png" alt="Oreja Chabocha">
+        </div>
+        <div>
+          <input type="radio" id="respuesta3.2" name="pregunta2" value="respuesta3.2">
+          <label for="respuesta3">Trenza</label>
+          <img src="./Images/Trenza.png" alt="Trenza Chabocha">
+        </div>
+      </fieldset>
+      <fieldset class="pregunta 3">
+        <legend>3.-¿Qué pan va muy bien relleno de nata y tiene un nombre relacionado con el mar?</legend>
+        <div>
+          <input type="radio" id="respuesta1.3" name="pregunta3" value="respuesta1.3">
+          <label for="respuesta1.3">Capirotada</label>
+          <img src="./Images/Capirotada.png" alt="Capirotada Chabocha">
+        </div>
+        <div>
+          <input type="radio" id="respuesta2.3" name="pregunta3" value="respuesta2.3">
+          <label for="respuesta2.3">Bisquet</label>
+          <img src="./Images/Bisquet.png" alt="Bisquet Chabocha">
+        </div>
+        <div>
+          <input type="radio" id="respuesta3.3" name="pregunta3" value="respuesta3.3">
+          <label for="respuesta3.3">Concha</label>
+          <img src="./Images/Concha.png" alt="Concha Chabocha">
+        </div>
+      </fieldset>
+    </section>
+    <br>
+    <button id="validarP1" onclick="muestraRespuestas()">Ver respuestas correctas</button>
+    <button type="submit" id="validacion">Revisar</button>
+    <!--Radio Button Final-->
+  </main>
+
+  <footer>
+    <br>Todos los Derechos Reservados y la utilización del contenido mostrado al uso directamente autorizado.</br>
+    Trivia realizada por:
+    <br>Sofía Islas, Sandra Corral y Constanza García</br>
+    <br>Un trabajo hecho para Laboratoria</br>
+  </footer>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
